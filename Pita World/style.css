@@ -1,0 +1,75 @@
+footer p {
+  text-align: center;
+}
+main {
+  width: 70%;
+  margin: auto;
+  inset: 0;
+}
+form {
+  border: 5px dotted gray;
+  padding: 10px;
+  margin: 10px;
+}
+#rgt {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+#sbtn {
+  margin: 10px;
+  text-align: center;
+}
+fieldset {
+  border: 5px double green;
+}
+table {
+  border-collapse: collapse;
+  text-align: left;
+  margin: auto;
+  inset: 0;
+  width: 70%;
+}
+caption {
+  color: darkblue;
+  font-size: bolder;
+  margin-top: 10px;
+}
+
+td,
+th {
+  border: 2px solid gray;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav div h1 {
+  color: blue;
+  transition: transform 0.5s ease;
+}
+nav div h1:hover {
+  transform: rotate(360deg);
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 10px;
+  text-align: center;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+nav a:hover {
+  color: #fff;
+  background-color: darkblue;
+}
