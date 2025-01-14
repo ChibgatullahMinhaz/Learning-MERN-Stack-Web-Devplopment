@@ -1,0 +1,19 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+.box{
+    background-color: purple;
+padding: 1rem;
+border-radius: 1rem;
+color: bisque;
+text-align: center;
+}
+#box-1{
+    grid-row: span 5;
+}
+#box-11, #box-12{
+    grid-column: span 3;
+}
