@@ -1,0 +1,42 @@
+header h1{
+    text-align: center;
+}
+.field{
+    width: 90%;
+    border: 2px solid gray;
+    margin: auto;
+}
+.bat{
+    transition: all 0.1s ease-in;
+}
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background: purple;
+    border-radius: 50%;
+    position: relative;
+    left: 515px;
+    transition: transform 0.2s ease-in-out 0.2s; 
+}
+.fun{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 80px;
+    transition: all 0.2s ease-in-out 0.2s; 
+
+}
+.field:hover .fun{
+    display: inline;
+}
+.field:hover .ball{
+    transform: translate(1000px, -500px);
+}
+.footer{
+    text-align: center;
+    height: 30vh;
+}
