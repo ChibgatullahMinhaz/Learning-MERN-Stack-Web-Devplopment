@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounch</title>
+    <style>
+        @keyframes bounch {
+            0%{
+                top: 0;
+                left: 0;
+            }
+            25%{
+                top: 80%;
+                left: 30%;
+            }
+            50%{
+                top: 0;
+                left: 55%;
+            }
+            100%{
+                top: 79%;
+                left: 88%;
+            }
+        }
+        .container{
+            width: 80%;
+            height: 40vh;
+            margin: auto;
+            border: 1px solid orange;
+            background-color: orangered;
+        }
+        .ball{
+            height:50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: relative;
+            animation: bounch 2s ease-in-out 1s infinite alternate;
+        }
+        .ring{
+            height:100px;
+            width: 100px;
+            background-color: gainsboro;
+            border:15px solid gold ;
+            border-top: 15px solid red ;
+            border-radius: 50%;
+            animation: spin 2s ease-in-out infinite;
+            margin: auto;
+
+        }
+        @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+                50%{
+                    border-top: 15px solid grey ;
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+       
+        .loading {
+            width: 100px;
+            height: 100px;
+            border: 15px solid yellow;
+            border-radius: 50%;
+            border-top: 15px solid blue;
+             animation: spin 2s linear infinite; 
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball">
+
+        </div>
+       
+    </div> <br>
+    <div class="ring">
+
+    </div>
+    <br> <br>
+    <div class="loading">
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ping-pong</title>
+    <style>
+        @keyframes ping-pong {
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 87.99%;
+            }
+        }
+        .container{
+            width: 80%;
+            height: 40vh;
+            margin: auto;
+            border: 1px solid purple;
+            border-radius: 5px;
+        }
+        .ball{
+            height:50px;
+            width: 50px;
+            background-color: gainsboro;
+            border-radius: 50%;
+            background-color: orange;
+            position: relative;
+            animation: ping-pong 2s ease-in-out 1s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+</html>
