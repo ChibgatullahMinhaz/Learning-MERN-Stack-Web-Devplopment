@@ -10,6 +10,7 @@ also, write it using ternary operator.
 
  */
 
+// uisng if-else 
 let num1;
 num1 = 50;
 let num2;
@@ -26,5 +27,6 @@ let result;
     console.log(result)
  }
 
+// using ternary operator
  let result_two = num1 > num2 ? num1 * num2 : num1 + num2;
  console.log(result_two)
