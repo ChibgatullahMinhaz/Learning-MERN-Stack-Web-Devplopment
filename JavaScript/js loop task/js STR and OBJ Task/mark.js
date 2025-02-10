@@ -10,3 +10,4 @@ const student = {
 
 let physicsMark = student.physics.marks;
 console.log(physicsMark);
+
