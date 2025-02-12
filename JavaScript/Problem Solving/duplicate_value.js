@@ -4,7 +4,6 @@ function uniqe(arr) {
     let uniqeNumber = [];
     for (const num of arr) {
         if (uniqeNumber.includes(num)) {
-
         } else {
             uniqeNumber.push(num)
         }
