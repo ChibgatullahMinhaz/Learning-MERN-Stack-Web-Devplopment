@@ -3,6 +3,6 @@
 function fit(inc) {
     const fitInt =parseInt(inc / 12);
     const remaining = inc % 12;
-    return `${fitInt} ft  ${remaining}  `;
+    return fitInt+ " ft " +remaining;
 }
 console.log(fit(40))

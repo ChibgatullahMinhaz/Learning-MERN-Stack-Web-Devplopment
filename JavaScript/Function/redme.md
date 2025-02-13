@@ -68,3 +68,37 @@ if (int % 2== 0 ){
 const result  = odd_even(2);
 console.log(result);
 ```
+## 6. `Leap Year`
+Get leap year 
+```javascript
+ function isLeapYear(year) {
+    if((year % 4 === 0 && year % 400 === 0) || year % 100 !==0){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(isLeapYear(2052));
+```
+## 7. `Inc to Fit`
+convet inc to fit 
+```javascript
+function fit(inc) {
+    const fitInt =parseInt(inc / 12);
+    const remaining = inc % 12;
+    return fitInt+ " ft " +remaining;
+}
+console.log(fit(40))
+```
+## 7. `Swap value`
+Swaping 2 value 
+```javascript
+let a = 5;
+let b = 3;
+console.log(a, b);
+
+let teamp = a;
+a = b;
+b = teamp;
+console.log(a, b)
+```
