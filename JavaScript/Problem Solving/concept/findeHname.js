@@ -12,5 +12,5 @@ function FindePattri(input) {
    }
    return newPatriList;
 }
-const output = FindePattri('');
+const output = FindePattri({});
 console.log(output);
