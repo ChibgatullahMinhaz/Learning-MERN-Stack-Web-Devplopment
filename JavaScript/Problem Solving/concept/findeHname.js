@@ -1,6 +1,9 @@
 const patriName = ["Hena", "jerren", "fahima", "somaiyya"];
 
 function FindePattri(input) {
+    if (!Array.isArray(input)) {
+        return "Invalid Input";
+    }
     let newPatriList = [];
    for (const patri of input) {
     if (patri.charAt(0).includes('h') || patri.includes("H")) {
@@ -9,5 +12,5 @@ function FindePattri(input) {
    }
    return newPatriList;
 }
-const output = FindePattri(patriName);
+const output = FindePattri('');
 console.log(output);

@@ -8,9 +8,11 @@ function findValue(values, inputValue) {
     if (value === inputValue) {
         message = "it's here bro "
         count++
+    }else{
+        console.log("not exist ")
     }
    }
    return `Times of: ${count} Message:  ${message}`;
 }
-const finde = findValue(numbers , 5);
+const finde = findValue(numbers , 59);
 console.log(finde);
