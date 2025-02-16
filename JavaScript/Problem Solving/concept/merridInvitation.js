@@ -21,6 +21,7 @@ function DawahList(ShadiList) {
         for (const newRelative of uniqeList) {
             if (list.name === newRelative.name && list.member === newRelative.member) {
                 isUnique = false;
+                console.log(newRelative)
             }
         }
         if (isUnique) {
@@ -28,7 +29,7 @@ function DawahList(ShadiList) {
             totalMember += list.member;
         }
     }
-    return [uniqeList , totalMember];
+    // return [uniqeList , totalMember];
 }
-const output = DawahList([]);
+const output = DawahList(relatives);
 console.log(output);
