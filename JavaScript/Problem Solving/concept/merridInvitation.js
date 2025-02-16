@@ -11,6 +11,9 @@ const relatives = [
     { name: "Alice", member: 1 }
 ];
 function DawahList(ShadiList) {
+    if ( !Array.isArray(ShadiList)) {
+        return "invalid Input";
+    }
     let uniqeList = [];
     let totalMember = 0;
     for (const list of ShadiList) {
@@ -27,5 +30,5 @@ function DawahList(ShadiList) {
     }
     return [uniqeList , totalMember];
 }
-const output = DawahList(relatives);
-console.log(output)
+const output = DawahList([]);
+console.log(output);
