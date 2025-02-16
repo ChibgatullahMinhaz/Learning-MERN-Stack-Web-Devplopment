@@ -17,6 +17,9 @@ const patriNames = [
 ]
 
 function SendProposal(patro, patris) {
+    if ( typeof patro !== "object" || typeof patris !== "object" || !Array.isArray(patris)  ) {
+        return "Invalid Input , Please Give Valid input . prefering object for pattro and array for pattris"; 
+    }
     for (const kone of patris) {
         let koneName = kone.name;
         if ((koneName.includes("h") || koneName.includes("H")) && patro.district === kone.district) {
@@ -25,5 +28,5 @@ function SendProposal(patro, patris) {
     }
     return "No suitable match found";
 }
-const output = SendProposal(Herobhai, patriNames)
+const output = SendProposal(Herobhai,patriNames)
 console.log(output)
