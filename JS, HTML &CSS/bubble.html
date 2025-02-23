@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble</title>
+</head>
+
+<body>
+    <div class="container">
+        <ol class="item-list" id="item-list">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <button id="btn">Add new Item</button>
+    </div>
+    <script>
+        let items= document.getElementById('item-list');
+        items.addEventListener('click', function (event) {
+            // event.target.parentNode.removeChild(event.target)
+            event.target.remove(event.target)
+
+        })
+        // btn
+     document.getElementById("btn").addEventListener('click', function
+            (event) {
+                console.log('first')
+                const li = document.createElement('li');
+                li.innerText = 'Added new item';
+                items.appendChild(li);
+        }
+        )
+    </script>
+</body>
+
+</html>
