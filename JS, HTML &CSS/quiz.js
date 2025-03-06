@@ -31,4 +31,36 @@ console.log(price);
 // what would be the output? 
 
 const [a, b] = [1,2,3,4,45,5]; 
-console.log(a+b);
+// console.log(a+b);
+// What would be the output?
+
+let p='Javascript'; 
+let q=p; 
+p='React'; 
+// console.log(q);
+
+
+function work(x, y = 4) {
+    return x + y;
+   }
+//    console.log(work(32);
+
+
+// What will be the output (be careful. And think about it. Don't execute the code before answering.)? 
+
+const isTrue=true;
+// console.log(!isTrue ? "hello" : "world")
+
+if ("2" === 2) {
+    console.log("Inside if");
+   } else {
+    console.log("Inside else");
+   }
+
+//    What will be the value of the result variable? 
+
+const sum =(p, q)=> {
+ p + q;
+}
+const result = sum(2, 3);
+console.log(result);
