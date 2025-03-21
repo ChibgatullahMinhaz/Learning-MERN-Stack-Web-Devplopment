@@ -4,3 +4,5 @@ if (Test) {
 } else {
     console.log('falsy value');
 }
+
+Test ?    console.log('truthy value') : console.log('falsy value');
