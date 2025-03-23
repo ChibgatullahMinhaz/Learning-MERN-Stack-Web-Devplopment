@@ -34,9 +34,16 @@
 }
 
 .card {
-  padding: 2em;
+  border:  2px solid orange;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.color {
+  color: orange;
 }
