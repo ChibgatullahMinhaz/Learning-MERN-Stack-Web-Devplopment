@@ -9,8 +9,9 @@ function App() {
   ];
   return (
     <>
+    <h1>React Core Concept</h1>
     {
-      singers.map(singer => <Singer singer={singer} ></Singer> )
+      singers.map(singer => <Singer key={singer.id} singer={singer} ></Singer> )
     }
       <Food froutsName="Orang" isFress={true}></Food>
       <Food froutsName="Apple" isFress={true}></Food>
