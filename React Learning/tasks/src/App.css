@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.searchingFeild{
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid orange;
+}
+.searchingFeild::placeholder{
+  color: azure;
+  font-weight: lighter;
+}
+.container{
+  display:flex;
+  border: 2px solid green;
+}
+.card{
+  border: 2px solid orangered;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
