@@ -1,0 +1,8 @@
+.cart-columns {
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+}
+.cart-columns img{
+    width: 50px;
+}
