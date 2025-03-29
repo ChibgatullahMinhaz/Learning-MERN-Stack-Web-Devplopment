@@ -1,3 +1,4 @@
+console.log(typeof NaN);
 console.log( NaN === 2);
 console.log( NaN === NaN);
 // output is : False , cause its cannot equal of anything so gives False. here are equal data types but not equal Data or values .
