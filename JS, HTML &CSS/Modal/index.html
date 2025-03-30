@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #modal{
+            display: none;
+            width: 300px;
+            border: 2px solid orange;
+            padding: 10px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #openModal{
+            width: 200px;
+            margin:0 auto;
+        }
+        #flex{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+    </style>
+</head>
+<body>
+ <div id="flex">
+    <button id="openModal">open modal</button>
+
+    <div id="modal">
+        <h1>Eid Mubarak!</h1>
+        <button id="close">Close</button>
+    </div>
+ </div>
+    <script>
+        document.getElementById('openModal').addEventListener('click', (e)=>{
+            document.getElementById('modal').style.display = 'block';
+            document.getElementById('openModal').style.display ='none';
+        })
+        document.getElementById('close').addEventListener('click', (e)=>{
+            document.getElementById('modal').style.display = 'none';
+            document.getElementById('openModal').style.display ='block';
+
+
+        })
+    </script>
+</body>
+</html>
