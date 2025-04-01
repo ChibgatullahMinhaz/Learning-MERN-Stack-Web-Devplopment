@@ -1,18 +1,40 @@
 .container {
-    display: grid;
+  display: grid;
   place-content: center;
-  height: 100vh;
 }
 #spiner {
   width: 300px;
   height: 300px;
-  border: 5px solid black;
-  border-top: 5px solid orange;
+  border: 15px solid gainsboro;
+  border-top: 15px solid orange;
   border-radius: 50%;
-  animation: loader 2s both infinite;
+  animation: loader 5s
 }
 @keyframes loader {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(160deg);}
-    
+  0% {
+    transform: rotate(0deg);
+    border-top: 15px solid orange;
+  }
+  10% {
+    border-top: 15px solid red;
+  }
+  20% {
+    border-top: 15px solid green;
+  }
+  40% {
+    border-top: 15px solid blue;
+  }
+  50% {
+    border-top: 15px solid burlywood;
+  }
+  60% {
+    border-top: 15px solid purple;
+  }
+  80% {
+    border-top: 15px solid orange;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-top: 15px solid blueviolet;
+  }
 }
