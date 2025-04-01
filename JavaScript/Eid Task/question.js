@@ -1,4 +1,4 @@
 console.log(1 + '2');
 console.log(1 -'2');
 console.log(1 && 2); 
-console.log(" || 'hello');
+// console.log(" || 'hello');
