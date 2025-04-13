@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Rahim",
+      "marks": {
+        "math": 85,
+        "english": 78,
+        "science": 92
+      }
+    },
+    {
+      "id": 2,
+      "name": "Karim",
+      "marks": {
+        "math": 74,
+        "english": 81,
+        "science": 76
+      }
+    },
+    {
+      "id": 3,
+      "name": "Amina",
+      "marks": {
+        "math": 90,
+        "english": 88,
+        "science": 95
+      }
+    },
+    {
+      "id": 4,
+      "name": "Jamal",
+      "marks": {
+        "math": 65,
+        "english": 70,
+        "science": 60
+      }
+    },
+    {
+      "id": 5,
+      "name": "Sabina",
+      "marks": {
+        "math": 80,
+        "english": 85,
+        "science": 89
+      }
+    },
+    {
+      "id": 6,
+      "name": "Hasan",
+      "marks": {
+        "math": 92,
+        "english": 87,
+        "science": 90
+      }
+    },
+    {
+      "id": 7,
+      "name": "Nazia",
+      "marks": {
+        "math": 78,
+        "english": 82,
+        "science": 88
+      }
+    },
+    {
+      "id": 8,
+      "name": "Rakib",
+      "marks": {
+        "math": 69,
+        "english": 74,
+        "science": 72
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lamia",
+      "marks": {
+        "math": 95,
+        "english": 91,
+        "science": 98
+      }
+    },
+    {
+      "id": 10,
+      "name": "Tanvir",
+      "marks": {
+        "math": 88,
+        "english": 79,
+        "science": 85
+      }
+    }
+  ]
+  

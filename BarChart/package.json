@@ -1,5 +1,5 @@
 {
-  "name": "practice44",
+  "name": "barchart",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,20 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.3",
     "axios": "^1.8.4",
-    "lucide-react": "^0.487.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "recharts": "^2.15.2",
-    "tailwindcss": "^4.1.3"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@vitejs/plugin-react-swc": "^3.8.0",
-    "daisyui": "^5.0.19",
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",

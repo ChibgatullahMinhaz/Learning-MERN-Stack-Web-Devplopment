@@ -4,7 +4,11 @@ import PricingData from "./Components/DisplayPricing/PricingData";
 import Navbar from "./Components/Navbar/Navbar";
 import Lodader from "./Components/Lodader/Lodader";
 import Chart from "./Components/Rechart/Chart";
+import axios, { Axios } from "axios";
+import BarChart from "./Components/Rechart/BarChart";
 const promies = fetch("pricingdata.json").then((res) => res.json());
+const promiessatudentMarks = axios.get('studentmark.json');
+
 
 function App() {
   return (
@@ -15,6 +19,9 @@ function App() {
           <PricingData pricingPromies={promies}></PricingData>
         </Suspense>
       <Chart></Chart>
+      {/* <Suspense fallback={<Lodader></Lodader>}>
+        <BarChart promiessatudentMarks ={promiessatudentMarks}></BarChart>
+      </Suspense> */}
       </main>
     </>
   );
