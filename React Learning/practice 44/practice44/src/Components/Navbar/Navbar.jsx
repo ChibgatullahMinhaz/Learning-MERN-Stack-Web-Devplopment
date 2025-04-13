@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import navigation from "../../Utilities/NavigationData";
-import { AlignCenter } from "lucide-react";
+import { AlignCenter,X } from "lucide-react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -12,8 +12,16 @@ const Navbar = () => {
   console.log(navigation);
   return (
     <nav className="flex justify-between items-center mx-10">
-      <span onClick={() => setOpen(!open)} className="flex  sm:block">
-        <AlignCenter className="cursor-pointer block md:hidden "></AlignCenter>
+      <span className="flex  sm:block">
+        <span onClick={() => setOpen(!open)} className="flex  sm:block">
+        {
+            open ? (
+                <X className="cursor-pointer block md:hidden" />
+            ) : (
+                <AlignCenter className="cursor-pointer block md:hidden "></AlignCenter>
+            )
+        }
+        </span>
         <h1>my app</h1>
 
         <ul
