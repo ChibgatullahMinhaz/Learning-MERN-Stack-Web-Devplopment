@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+}
+nav a.active {
+    text-decoration: underline;
+}
+.sidebar{
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+    color: #000;
+}
