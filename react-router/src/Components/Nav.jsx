@@ -11,6 +11,7 @@ const Nav = () => {
             <NavLink to='/blogs'>Blogs</NavLink>
             <NavLink to='/Users'>users</NavLink>
             <NavLink to='/Users2'>User2</NavLink>
+            <NavLink to='/posts'>Posts</NavLink>
             
             </nav>  
         </div>
