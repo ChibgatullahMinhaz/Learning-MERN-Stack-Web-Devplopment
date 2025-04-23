@@ -1,0 +1,160 @@
+[
+  {
+    "image": "https://i.ibb.co.com/WWR8cCjY/images-6.jpg",
+    "name": "Isabella Jones",
+    "education": [
+      { "degree": "JD", "institution": "Cornell Law School", "year": 2013 },
+      { "degree": "BA in Sociology", "institution": "Princeton University", "year": 2009 }
+    ],
+    "specialty": "Immigration Law",
+    "experience": "8 years",
+    "registration_number": "I7007",
+    "available_weekday": ["Monday", "Thursday"],
+    "fees": 1150
+  },
+  {
+    "image": "https://i.ibb.co.com/WNNB79wJ/images-5.jpg",
+    "name": "Caleb King",
+    "education": [
+      { "degree": "JD", "institution": "Georgetown University Law Center", "year": 2015 },
+      { "degree": "BS in Computer Science", "institution": "Carnegie Mellon University", "year": 2011 }
+    ],
+    "specialty": "Intellectual Property Law",
+    "experience": "7 years",
+    "registration_number": "IP8008",
+    "available_weekday": ["Tuesday", "Saturday"],
+    "fees": 1250
+  },
+  {
+    "image": "https://i.ibb.co.com/yBcLqFZM/images-4.jpg",
+    "name": "Avery Lewis",
+    "education": [
+      { "degree": "JD", "institution": "University of California, Los Angeles School of Law", "year": 2012 },
+      { "degree": "BA in Communications", "institution": "University of Southern California", "year": 2008 }
+    ],
+    "specialty": "Entertainment Law",
+    "experience": "9 years",
+    "registration_number": "E9009",
+    "available_weekday": ["Wednesday", "Friday"],
+    "fees": 1400
+  },
+  {
+    "image": "https://i.ibb.co.com/ksyF6Lsp/images-3.jpg",
+    "name": "Mia Miller",
+    "education": [
+      { "degree": "JD", "institution": "University of Texas School of Law", "year": 2016 },
+      { "degree": "BA in Economics", "institution": "Rice University", "year": 2012 }
+    ],
+    "specialty": "Bankruptcy Law",
+    "experience": "6 years",
+    "registration_number": "B1010",
+    "available_weekday": ["Monday", "Wednesday"],
+    "fees": 1000
+  },
+  {
+    "image": "https://i.ibb.co.com/C5FrPRvq/images-2.jpg",
+    "name": "Noah Moore",
+    "education": [
+      { "degree": "JD", "institution": "Vanderbilt University Law School", "year": 2014 },
+      { "degree": "BS in Mathematics", "institution": "Emory University", "year": 2010 }
+    ],
+    "specialty": "Environmental Law",
+    "experience": "7 years",
+    "registration_number": "EN1111",
+    "available_weekday": ["Tuesday", "Thursday"],
+    "fees": 1100
+  },
+  {
+    "image": "https://i.ibb.co.com/60wddJrP/images-1.jpg",
+    "name": "Harper Nelson",
+    "education": [
+      { "degree": "JD", "institution": "Washington University in St. Louis School of Law", "year": 2017 },
+      { "degree": "BA in Philosophy", "institution": "Johns Hopkins University", "year": 2013 }
+    ],
+    "specialty": "Civil Litigation",
+    "experience": "5 years",
+    "registration_number": "CL1212",
+    "available_weekday": ["Friday", "Saturday"],
+    "fees": 950
+  },
+  {
+    "image": "https://i.ibb.co.com/CKWyX82m/images-11.jpg",
+    "name": "Ava Williams",
+    "education": [
+      { "degree": "JD", "institution": "Yale Law School", "year": 2012 },
+      { "degree": "BA in Political Science", "institution": "Stanford University", "year": 2008 }
+    ],
+    "specialty": "Corporate Law",
+    "experience": "8 years",
+    "registration_number": "AW2023",
+    "available_weekday": ["Monday", "Friday"],
+    "fees": 1200
+  },
+  {
+    "image": "https://i.ibb.co.com/8nJyChhT/images-7.jpg",
+    "name": "Benjamin Carter",
+    "education": [
+      { "degree": "LLM", "institution": "New York University School of Law", "year": 2015 },
+      { "degree": "JD", "institution": "University of Michigan Law School", "year": 2013 },
+      { "degree": "BS in Economics", "institution": "University of Pennsylvania", "year": 2009 }
+    ],
+    "specialty": "Tax Law",
+    "experience": "7 years",
+    "registration_number": "BC2024",
+    "available_weekday": ["Tuesday", "Saturday"],
+    "fees": 1100
+  },
+  {
+    "image": "https://i.ibb.co.com/fYBWfCmH/images-12.jpg",
+    "name": "Chloe Davis",
+    "education": [
+      { "degree": "JD", "institution": "Columbia Law School", "year": 2011 },
+      { "degree": "MA in History", "institution": "Brown University", "year": 2007 },
+      { "degree": "BA in History", "institution": "Brown University", "year": 2005 }
+    ],
+    "specialty": "Family Law",
+    "experience": "9 years",
+    "registration_number": "CD2025",
+    "available_weekday": ["Wednesday", "Thursday"],
+    "fees": 950
+  },
+  {
+    "image": "https://i.ibb.co.com/60CVS9m8/images-10.jpg",
+    "name": "Daniel Evans",
+    "education": [
+      { "degree": "JD", "institution": "University of Chicago Law School", "year": 2016 },
+      { "degree": "BA in Philosophy", "institution": "Northwestern University", "year": 2012 }
+    ],
+    "specialty": "Criminal Defense",
+    "experience": "6 years",
+    "registration_number": "DE2026",
+    "available_weekday": ["Monday", "Wednesday"],
+    "fees": 1050
+  },
+  {
+    "image": "https://i.ibb.co.com/prv0yFLH/images-8.jpg",
+    "name": "Sophia Garcia",
+    "education": [
+      { "degree": "JD", "institution": "University of Virginia School of Law", "year": 2014 },
+      { "degree": "BS in Chemistry", "institution": "Massachusetts Institute of Technology", "year": 2010 }
+    ],
+    "specialty": "Patent Law",
+    "experience": "7 years",
+    "registration_number": "SG2027",
+    "available_weekday": ["Tuesday", "Friday"],
+    "fees": 1300
+  },
+  {
+    "image": "https://i.ibb.co.com/8nJyChhT/images-7.jpg",
+    "name": "Ethan Hall",
+    "education": [
+      { "degree": "JD", "institution": "Duke University School of Law", "year": 2017 },
+      { "degree": "BA in English", "institution": "Dartmouth College", "year": 2013 }
+    ],
+    "specialty": "Real Estate Law",
+    "experience": "5 years",
+    "registration_number": "EH2028",
+    "available_weekday": ["Friday", "Saturday"],
+    "fees": 900
+  }
+]

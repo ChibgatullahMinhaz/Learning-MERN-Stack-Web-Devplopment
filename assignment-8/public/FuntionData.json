@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Awlad Hossain",
+      "image": "/images/awlad.jpg",
+      "speciality": "Criminal Defense",
+      "experience": "6 years",
+      "qualifications": "JD - Dhaka University",
+      "license": "C1001",
+      "availability": ["Sunday", "Tuesday", "Thursday"],
+      "fee": "৳ 273"
+    },
+    {
+      "id": 2,
+      "name": "Mehnaz Rahman",
+      "image": "/images/mehnaz.jpg",
+      "speciality": "Criminal Law",
+      "experience": "8 years",
+      "qualifications": "LLM - Rajshahi University",
+      "license": "C1002",
+      "availability": ["Monday", "Wednesday"],
+      "fee": "৳ 320"
+    },
+    {
+      "id": 3,
+      "name": "Tanvir Hasan",
+      "image": "/images/tanvir.jpg",
+      "speciality": "Criminal Defense",
+      "experience": "5 years",
+      "qualifications": "JD - Chittagong University",
+      "license": "C1003",
+      "availability": ["Saturday", "Tuesday"],
+      "fee": "৳ 250"
+    },
+    {
+      "id": 4,
+      "name": "Shirin Jahan",
+      "image": "/images/shirin.jpg",
+      "speciality": "Criminal Law",
+      "experience": "10 years",
+      "qualifications": "LLM - University of London",
+      "license": "C1004",
+      "availability": ["Sunday", "Thursday"],
+      "fee": "৳ 400"
+    },
+    {
+      "id": 5,
+      "name": "Rezaul Karim",
+      "image": "/images/rezaul.jpg",
+      "speciality": "Criminal Defense",
+      "experience": "7 years",
+      "qualifications": "JD - North South University",
+      "license": "C1005",
+      "availability": ["Monday", "Friday"],
+      "fee": "৳ 299"
+    }
+  ]
+  

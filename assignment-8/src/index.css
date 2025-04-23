@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.minHeight {
+    min-height: calc(100vh - 350px);
+}
