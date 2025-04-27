@@ -3,8 +3,10 @@ import React, { useRef, useState } from "react";
 import { auth } from "../Firebase/firebase__init__";
 import { Link, useNavigate } from "react-router";
 import toast from "react-hot-toast";
+import { sendPasswordResetEmail } from "firebase/auth";
 
 const Login = () => {
+    const emailRef = useRef();
   const passwordRef = useRef();
   const [error, setError] = useState("");
   const Navigate = useNavigate()
@@ -30,6 +32,24 @@ const Login = () => {
         toast.error(error.message)
       });
   };
+
+
+  const handleResetPassword = ()=>
+  {
+    const email = emailRef.current.value;
+    if (!email) {
+        toast.error('Please Enter Email')
+    }
+    console.log(email);
+   sendPasswordResetEmail(auth,email )
+   .then(()=> {
+    toast.success('Password reset email sent!');
+   })
+   .catch(error=> {
+    toast.error(error.message)
+   })
+  }
+
   return (
     <div className="max-w-6/9 mx-auto">
       <h1>please Login</h1>
@@ -54,6 +74,7 @@ const Login = () => {
           <input
             type="email"
             name="email"
+            ref={emailRef}
             placeholder="mail@site.com"
             required
           />
@@ -83,7 +104,7 @@ const Login = () => {
             name="password"
             required
             placeholder="Password"
-            minlength="8"
+            minLength="8"
             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             title="Must be more than 8 characters, including number, lowercase letter, uppercase letter"
           />
@@ -96,7 +117,7 @@ const Login = () => {
           At least one uppercase letter
         </p>
         <br />
-        <div>
+        <div onClick={handleResetPassword} className="text-blue-500 underline link-error cursor-pointer">
             <p>Forget Password</p>
         </div>
         <br />
