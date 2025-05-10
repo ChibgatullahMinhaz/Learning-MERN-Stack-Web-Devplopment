@@ -29,7 +29,7 @@ const Login = () => {
       })
       .catch((error) => {
         setError(error.message);
-        toast.error(error.message)
+        toast.error('User not Found! please Create Account')
       });
   };
 
@@ -46,6 +46,7 @@ const Login = () => {
     toast.success('Password reset email sent!');
    })
    .catch(error=> {
+    console.error(error.message);
     toast.error(error.message)
    })
   }
