@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "iPhone 14 Pro",
+      "price": 1199,
+      "storage": "256GB",
+      "color": "Deep Purple",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "price": 1099,
+      "storage": "512GB",
+      "color": "Phantom Black",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "price": 999,
+      "storage": "128GB",
+      "color": "Bay",
+      "inStock": false
+    },
+    {
+      "id": 4,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro",
+      "price": 349,
+      "storage": "256GB",
+      "color": "Midnight Black",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "brand": "OnePlus",
+      "model": "OnePlus 12",
+      "price": 899,
+      "storage": "256GB",
+      "color": "Flowy Emerald",
+      "inStock": true
+    }
+  ]
+  
