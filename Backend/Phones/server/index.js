@@ -1,8 +1,9 @@
-import express from 'express';
-import cors from 'cors';
+const express = require('express');
+const cors = require('cors');
 const phones = require('./phones.json');
+
 const app= express();
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 // use middleware
 app.use(cors());
 app.use(express.json());
