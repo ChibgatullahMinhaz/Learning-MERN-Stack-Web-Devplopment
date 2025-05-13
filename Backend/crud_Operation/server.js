@@ -22,13 +22,10 @@ const run = async () => {
         await client.connect();
 
         const collection = client.db("usersDB").collection("users");
-        app.get('/users', async (req, res) => {
-            const result = await collection.find().toArray();
-            res.send(result);
-        });
+
+        // create user
         app.post('/users', async (req, res) => {
             const email = req.body.email;
-            console.log(email)
             const name = req.body.name;
             const newUser = { email, name };
             const isExistEmail = await collection.findOne({ email });
@@ -36,11 +33,42 @@ const run = async () => {
             if (!isExistEmail || !isExistName) {
                 const result = await collection.insertOne(newUser);
                 res.send(result);
-
             }
             res.send({ success: false, message: 'User already exists' });
             return;
         });
+
+        // get all users
+        app.get('/users', async (req, res) => {
+            const result = await collection.find().toArray();
+            res.send(result);
+        });
+        // get one users
+        app.get('/users/:id', async (req, res) => {
+           const id = req.params.id
+           const query = {_id : new ObjectId(id)};
+           const result = await collection.findOne(query);
+           res.send(result);
+        });
+
+        // update user
+        app.put('/users/:id', async (req, res) => {
+            const name = req.body.name;
+            const email = req.body.email;
+            const id = req.params.id;
+            const filter = { _id: new ObjectId(id) }
+            const updatedDoc = {
+                $set: {
+                    name,
+                    email
+                }
+            }
+            const result = await collection.updateOne(filter, updatedDoc);
+            res.send(result);
+
+        });
+
+        // delete user
         app.delete('/users/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: new ObjectId(id) };
@@ -61,9 +89,6 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
-
-
-
 
 
 
